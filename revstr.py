@@ -1,3 +1,3 @@
 str="surya";
 print("actual string:",str);
-print(str[::-1])
+print(str[::-1]);
