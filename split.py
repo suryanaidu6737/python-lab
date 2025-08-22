@@ -6,4 +6,3 @@ for i in str2:
     if len(i)%2==0:
             print(i);
 	
-
