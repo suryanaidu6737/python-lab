@@ -1,0 +1,6 @@
+f=open("file1.txt",'r')
+print(f.readline())
+print("read completed")
+print(f.readlines())
+print("readlines completed")
+f.close()
