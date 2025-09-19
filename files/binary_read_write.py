@@ -1,0 +1,6 @@
+f=open("file2.bin",'wb')
+f.write(b'\x00\x01\02\x03\x04\x05')
+print("binary write completed")
+fr=open("file2.bin",'rb')
+print(fr.read())
+f.close()
